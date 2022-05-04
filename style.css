@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #8fb900;
+    color: white;
+}
+
+.header-container {
+    width: 1160px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container-left h1 {
+    font-size: 24px;
+}
+
+#leaf, #basket {
+    margin-right: 10px;
+}
+
+.header-container-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 15px;   
+}
+
+.header-container-right:hover, .header-container-right a:hover{
+    background: white;
+    color: #8fb900;
+}
+
