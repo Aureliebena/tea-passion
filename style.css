@@ -1,7 +1,8 @@
-body {
+* {
     margin: 0;
     box-sizing: border-box;
 }
+/************************************ Header  *******************************/
 
 header {
     background: #8fb900;
@@ -33,8 +34,31 @@ header {
     padding: 15px;   
 }
 
-.header-container-right:hover, .header-container-right a:hover{
+.header-container-right:hover, .header-container-right a:hover {
     background: white;
     color: #8fb900;
 }
 
+/****************************** Section image **************************/
+
+.section-image {
+    background: url(img/main_pic.jpg) center/cover;
+    width: 1160px;
+    height: 365px;
+    margin: 80px auto;
+    position: relative
+}
+
+.section-image p {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: #b900316e;
+    width: 100%;
+    height: 75px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
