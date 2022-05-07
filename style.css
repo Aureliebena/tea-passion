@@ -140,3 +140,29 @@ header {
     color: #b90032;
     background: white;
 }
+
+/************************** Section entreprise ****************/
+
+.section-entreprise {
+    display: flex;
+}
+
+.section-entreprise-left img {
+    border: 1px solid black;
+    width: 570px;
+    height: 360px;
+}
+
+.section-entreprise-right {
+    width: 50%;
+    margin-left: 15px;
+}
+
+.section-entreprise-right h3{
+    font-size: 25px;
+}
+
+.section-entreprise p {
+    margin-top: 20px;
+}
+
