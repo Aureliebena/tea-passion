@@ -4,12 +4,12 @@
 }
 /************************************ Header  *******************************/
 
-header {
+header, footer{
     background: #8fb900;
     color: white;
 }
 
-.header-container {
+.header-container, .footer-container {
     width: 1160px;
     height: 80px;
     margin: 0 auto;
@@ -18,11 +18,11 @@ header {
     align-items: center;
 }
 
-.header-container-left h1 {
+.header-container-left h1, .footer-container-left h3 {
     font-size: 24px;
 }
 
-#leaf, #basket {
+#leaf, #basket, #copyright {
     margin-right: 10px;
 }
 
@@ -166,3 +166,22 @@ header {
     margin-top: 20px;
 }
 
+/********************************* Footer **********************/
+
+footer {
+    margin-top: 90px;
+}
+
+.footer-container-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-container-right a:hover {
+    text-decoration: underline;
+}
+
+.link-2 {
+    padding-left: 10px;
+}
